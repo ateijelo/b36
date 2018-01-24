@@ -8,13 +8,15 @@ Just run:
 
 ### Usage
 
-    $ b36 ff
+Running `b36 ff` gives:
+
     base 10   base 36
     -------   -------
          ff         -
         555        ff
 
-    $ b36 555
+And running `b36 555` gives:
+
     base 10   base 36
     -------   -------
         555        ff
