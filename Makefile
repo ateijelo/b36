@@ -23,4 +23,8 @@ uninstall:
 	rm -rf $(SHAREDIR)
 	rm -f $(BINDIR)/b36
 
+upload:
+	python setup.py sdist upload -r pypi.ateijelo.com
 
+build:
+	python setup.py sdist

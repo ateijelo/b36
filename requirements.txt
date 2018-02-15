@@ -1,1 +1,1 @@
-python-baseconv
+-e .
